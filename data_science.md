@@ -1,6 +1,6 @@
 ---
 layout: content_page
-title: Data science projects
-subtitle: Where he tries to grasp the world with 1/0
+title: Learning Design Templates
+subtitle: How to Teach 101
 cover-img: /assets/img/Pages/dsprojects.jpg
 ---
