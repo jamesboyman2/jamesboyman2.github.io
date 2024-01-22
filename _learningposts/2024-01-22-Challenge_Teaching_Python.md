@@ -13,7 +13,7 @@ In my role as a Product Manager of Curriculum at 2U, I made frequent use of Pyth
 
 I was the beneficiary of a fantastic Python course in business school, and I put the knowledge to good use, but I have often thought about what the best way to share that knowledge with my peers would have been. I made my code available to those who were interested, but I wonder if I could have taught my colleagues how to customize their own reports. This post is my attempt to think through how I would do that.
 
-I know generative AI makes this exercise a bit outdated, but it is always prudent to read anything Chat GPT spits out. While proofreading is rapidly turning into a more useful skill than coding from scratch, it is still useful to know the basics of how to code in Python.
+I know generative AI makes this exercise a bit outdated, but it is always prudent to read anything ChatGPT spits out. While proofreading is rapidly turning into a more useful skill than coding from scratch, it is still useful to know the basics of how to code in Python.
 
 There's all kinds of funky use cases for Python, from using matplotlib to create detailed visualizations to using special libraries to create word clouds for qualitative feedback. For this exercise, I will focus on automating PivotTables, which was the most common use case in my last job.
 
@@ -23,7 +23,7 @@ In this post, I will outline:
 * How I would construct an online learning module to teach PivotTables in Python
 
 ## Pivoting Perspective
-For readers who may not know, PivotTables are a way to visualize information in spreadsheets to try to find trends. For example, you can take all the information in a source spreadsheet tagged with the same value in a column and find how the numbers compare between those tags.
+For readers who may not know, PivotTables are a way to visualize information in spreadsheets to find trends. 
 
 It makes a lot more sense when you see it, so in the same grand tradition as my Python professor, I will demonstrate using my custom Pokemon stats spreadsheet (with information only through Generation 8, alas).
 
@@ -41,19 +41,20 @@ The pivot table above shows all Type 1 tags sorted by average attack. You can se
 
 To create this PivotTable in Excel, I:
 
-* moved to the "Insert" tab
+* Moved to the "Insert" tab
 * Clicked PivotTable
 * Added "Type 1" to the rows section
 * Added "Attack" to the values section
+* Changed the default "Sum of Attack" to "Average of Attack"
 * Left clicked the Attack column in the PivotTable
-* changed the settings to reduce the number of decimal points to 0
+* Changed the settings to reduce the number of decimal points to 0
 * Sorted the PivotTable by the Attack column from largest to smallest
 
 Phew! That's a lot of clicks, especially when you have to do that for every data report you create.
 
 That's where Python comes in handy. Writing a script would take care of those steps every time you need a report. All you would need to change is the data source in the code, then you just make one click: "Run".
 
-## Learning Design to Teach Python
+## Designing a Module to Teach Python
 
 To teach PivotTables in Python, I would rely on a design emphasizing desirable difficulties. This approach stretches students to the limits of their ability and primes their long term memory for the correct answer. 
 
@@ -61,23 +62,15 @@ Another reason for this approach is to teach students about the value of Stack O
 
 The learning design to teach Python is as follows:
 
-##### 1. Ask students, "How would you create a PivotTable in Excel or Google Sheets?"
+1. Ask students, "How would you create a PivotTable in Excel or Google Sheets?"
 
+2. Ask students, "Try to write a script using pandas (a software library integrated into Python) to accomplish the same task. You may look at Stack Overflow and other online resources for this exercise."
 
+3. Reveal the correct answer in a lecture or live demonstration, so students can see the code being written.
 
-##### 2. Ask students, "Try to write a script using pandas (a software library integrated into Python) to accomplish the same task. You may look at Stack Overflow and other online resources for this exercise."
+4. Ask students to complete the script using pandas and referring to the lecture as a guide.
 
-
-
-##### 3. Reveal the correct answer in a lecture or live demonstration, so students can see the code being written.
-
-
-
-##### 4. Ask students to complete the script using pandas and referring to the lecture as a guide.
-
-
-
-##### 5. Ask students to reflect on their attempt from step 2. What did they get right in their first attempt? How was the instructor example different?
+5. Ask students to reflect on their attempt from step 2. What did they get right in their first attempt? How was the instructor example different?
 
 These 5 steps do the following:
 
@@ -87,7 +80,7 @@ These 5 steps do the following:
 * Step 4 provides another practice opportunity to reinforce what students learned in the lecture.
 * Step 5 prompts metacognitive thought as students reflect on the learning process and what the key takeaways are.
 
-Who knows if my colleagues would have been patient enough for this approach. After all, the first impression is, "What do you know already? Great, now figure it out for yourself." 
+Who knows if my colleagues would have been patient enough for this approach. After all, the first impression of this pedagogical approach is, "What do you know already? Great, now figure it out for yourself." 
 
 But for students who are willing to go through the learning exercise from beginning to end, I think this is the best way to ingrain the knowledge in their minds. Python is another language, after all, and there's no better way to learn another language than to be thrown into an immersive experience.
 
