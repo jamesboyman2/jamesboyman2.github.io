@@ -56,7 +56,7 @@ That's where Python comes in handy. Writing a script would take care of those st
 
 ## Designing a Module to Teach Python
 
-To teach PivotTables in Python, I would rely on a design emphasizing desirable difficulties. This approach stretches students to the limits of their ability and primes their long term memory for the correct answer. 
+To teach PivotTables in Python, I would rely on a design emphasizing desirable difficulties. This approach stretches students to the limit of their ability and primes their long term memory for the correct answer. 
 
 Another reason for this approach is to teach students about the value of Stack Overflow as a resource. Stack Overflow is an online community of coders where anyone can ask questions, and experienced coders almost always know the answers. The range of examples on Stack Overflow is so robust that I have never had to ask a question - the answer is already on the website, because someone else has had the same question.
 
@@ -84,7 +84,7 @@ Who knows if my colleagues would have been patient enough for this approach. Aft
 
 But for students who are willing to go through the learning exercise from beginning to end, I think this is the best way to ingrain the knowledge in their minds. Python is another language, after all, and there's no better way to learn another language than to be thrown into an immersive experience.
 
-Finally, for those who are interested, here's how you can code a PivotTable in Python / pandas. The "#"s mark author notes to explain the purpose of the individual line of code:
+Finally, for those who are interested, here's how you can code a PivotTable in Python. The "#"s mark author notes to explain the purpose of the individual line of code:
 
 
 ```python
