@@ -63,11 +63,19 @@ The learning design to teach Python is as follows:
 
 ##### 1. Ask students, "How would you create a PivotTable in Excel or Google Sheets?"
 
+
+
 ##### 2. Ask students, "Try to write a script using pandas (a software library integrated into Python) to accomplish the same task. You may look at Stack Overflow and other online resources for this exercise."
+
+
 
 ##### 3. Reveal the correct answer in a lecture or live demonstration, so students can see the code being written.
 
+
+
 ##### 4. Ask students to complete the script using pandas and referring to the lecture as a guide.
+
+
 
 ##### 5. Ask students to reflect on their attempt from step 2. What did they get right in their first attempt? How was the instructor example different?
 

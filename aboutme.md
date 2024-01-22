@@ -9,7 +9,7 @@ share-img: /assets/img/aboutme/head_shot.jpg
 
 I am a learning design consultant and program manager living in New York City. From 2017-2023, I consulted with universities across the United States to create impactful, high-quality graduate degree courses in the online environment. 
 
-The academic departments I have worked with include:
+The schools I have worked with include:
 
 * Fordham University's Graduate School of Education
 * Fordham University's Gabelli School of Business
