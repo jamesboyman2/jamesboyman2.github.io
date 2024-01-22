@@ -13,9 +13,9 @@ In my role as a Product Manager of Curriculum at 2U, I made frequent use of Pyth
 
 I was the beneficiary of a fantastic Python course in business school, and I put the knowledge to good use, but I have often thought about what the best way to share that knowledge with my peers would have been. I made my code available to those who were interested, but I wonder if I could have taught my colleagues how to customize their own reports. This post is my attempt to think through how I would do that.
 
-I know generative AI makes this exercise a bit outdated, but it is always prudent to read anything ChatGPT spits out. While proofreading is rapidly turning into a more useful skill than coding from scratch, it is still useful to know the basics of how to code in Python.
+I know generative AI makes this exercise a bit outdated, but it is always prudent to read anything ChatGPT produces. While proofreading is rapidly turning into a more useful skill than coding from scratch, it is still useful to know the basics of how to code in Python.
 
-There's all kinds of funky use cases for Python, from using matplotlib to create detailed visualizations to using special libraries to create word clouds for qualitative feedback. For this exercise, I will focus on automating PivotTables, which was the most common use case in my last job.
+For this exercise, I will focus on automating PivotTables, which was the most common use case in my last job.
 
 In this post, I will outline:
 
@@ -25,19 +25,19 @@ In this post, I will outline:
 ## Pivoting Perspective
 For readers who may not know, PivotTables are a way to visualize information in spreadsheets to find trends. 
 
-It makes a lot more sense when you see it, so in the same grand tradition as my Python professor, I will demonstrate using my custom Pokemon stats spreadsheet (with information only through Generation 8, alas).
+It makes a lot more sense when you see it, so in the same grand tradition as my Python professor, I will demonstrate using my custom Pokemon stats spreadsheet.
 
 The image below shows the base Pokemon spreadsheet:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/PathCNN/Pic1.JPG">
 
-While an untrained eye might think that the first 2 columns are duplicates of one another, the first column is an index while the second column is the Pokedex number, an important distinction when you realize multiple pokemon have the same Pokedex number, such as regional variants and mega-evolutions (pushes glasses up bridge of nose aggressively).
-
-Anyway, a PivotTable would allow you to compare stats between types by aggregating all the information associated with, for example, the "Type 1" column, which is what the image below shows:
+A PivotTable would allow you to compare stats between types by aggregating all the information associated with, for example, the "Type 1" column, which is what the image below shows:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/PathCNN/Pic2.JPG">
 
-The PivotTable above shows all Type 1 tags sorted by average attack. You can see that Pokemon with "Fight" as their first type have the highest average attack. While this information might seem trivial, you can use this same process to see what courses in a graduate degree program have the highest net promoter score, for example.
+The PivotTable above shows all Type 1 tags sorted by average attack. For example, in row 1, the PivotTable has provided the average of the "Attack" values of every pokemon with the value "Fight" entered into the "Type 1" column in the source spreadsheet. You can see that Pokemon with "Fight" as their first type have the highest average attack. 
+
+While this information might seem trivial, you can use this same process to see what courses in a graduate degree program have the highest net promoter score, for example.
 
 To create this PivotTable in Excel, I:
 
@@ -62,23 +62,27 @@ Another reason for this approach is to teach students about the value of Stack O
 
 The learning design to teach Python is as follows:
 
-1. Ask students, "How would you create a PivotTable in Excel or Google Sheets?"
+##### 1. Ask students, "How would you create a PivotTable in Excel or Google Sheets?"
 
-2. Ask students, "Try to write a script using pandas (a software library integrated into Python) to accomplish the same task. You may look at Stack Overflow and other online resources for this exercise."
+This step primes previous knowledge, preparing students to incorporate what they are learning into long term memory.
 
-3. Reveal the correct answer in a lecture or live demonstration, so students can see the code being written.
+##### 2. Ask students, "Try to write a script using pandas (a software library integrated into Python) to accomplish the same task. You may look at Stack Overflow and other online resources for this exercise."
 
-4. Ask students to complete the script using pandas and referring to the lecture as a guide.
+This step challenges students to push themselves, teaching them about online resources that will be useful to them in the future.
 
-5. Ask students to reflect on their attempt from step 2. What did they get right in their first attempt? How was the instructor example different?
+##### 3. Reveal the correct answer in a lecture or live demonstration, so students can see the code being written.
 
-These 5 steps do the following:
+This demonstration reveals expert thinking on the topic, showing students how they can think while coding to be successful.
 
-* Step 1 primes previous knowledge, preparing students to incorporate what they are learning into long term memory.
-* Step 2 challenges students to push themselves, teaching them about online resources that will be useful to them in the future.
-* Step 3 reveals expert thinking on the topic, showing students how they can think while coding to be successful.
-* Step 4 provides another practice opportunity to reinforce what students learned in the lecture.
-* Step 5 prompts metacognitive thought as students reflect on the learning process and what the key takeaways are.
+##### 4. Ask students to complete the script using pandas and referring to the lecture as a guide.
+
+This question provides another practice opportunity to reinforce what students learned in the lecture.
+
+##### 5. Ask students to reflect on their attempt from step 2. What did they get right in their first attempt? How was the instructor example different?
+
+This step prompts metacognitive thought as students reflect on the learning process and what the key takeaways are.
+
+## Conclusion
 
 Who knows if my colleagues would have been patient enough for this approach. After all, the first impression of this pedagogical approach is, "What do you know already? Great, now figure it out for yourself." 
 

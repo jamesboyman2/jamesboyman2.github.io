@@ -16,7 +16,6 @@ The schools I have worked with include:
 * Fordham University's Graduate School of Social Services
 * Yale University's School of Medicine
 * The University of North Carolina's Kenan-Flagler Business School
-* The University of Denver's Graduate School of Social Work
 * Baylor University's School of Education
 * Baylor University's Diana R. Garland School of Social Work
 * Baylor University's Robbins College of Health and Human Sciences
