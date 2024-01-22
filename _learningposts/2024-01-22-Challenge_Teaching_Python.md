@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Teach Python and Pandas
+title: The Challenge of Teaching Python
 date: 2024-01-21
 tags: [learning design, python, desirable difficulties]
 cover-img: /assets/img/PathCNN/Histopath.png
