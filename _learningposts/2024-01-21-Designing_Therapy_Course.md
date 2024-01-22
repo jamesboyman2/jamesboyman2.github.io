@@ -10,7 +10,7 @@ mathjax: true
 
 ## Designing a Therapy Course for Online Students
 
-I was fortunate to have had the opportunity to advise on learning design and modality selection for an online cognitive behavioral therapy course a few years ago. The challenge facing me and the instructor with whom I was consulting was how to adapt the course content to an online environment where students would only meet for an hour and a half per week. The rest of the course needed to be taken asynchronously. How should we outline the content to maximize student learning?
+I advised on learning design and modality selection for an online cognitive behavioral therapy course a few years ago. The challenge facing me and the instructor with whom I was consulting was how to adapt the course content to an online environment where students would only meet for an hour and a half per week. The rest of the course needed to be taken asynchronously. How should we outline the content to maximize student learning?
 
 The answer came from thinking through how to structure the learning experience. The first decision we made was to ensure the structure of the course stayed the same from one week to the next. This consistent structure would minimize extraneous load, or unnecessary mental processing that takes energy away from the act of learning. This approach would help the student focus on the material and not a strange new modality with which they would need to learn to interact.
 
