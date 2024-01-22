@@ -196,7 +196,7 @@ defaults:
       show-avatar: true
 
 collections:
-  dsposts:
+  learningposts:
     output: true
 
 # Exclude these files from production site
