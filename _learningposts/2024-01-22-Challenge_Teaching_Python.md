@@ -37,7 +37,7 @@ Anyway, a PivotTable would allow you to compare stats between types by aggregati
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/PathCNN/Pic2.JPG">
 
-The pivot table above shows all Type 1 tags sorted by average attack. You can see that Pokemon with "Fight" as their first type have the highest average attack. While this information might seem trivial, you can use this same process to see what courses in a graduate degree program have the highest net promoter score, for example.
+The PivotTable above shows all Type 1 tags sorted by average attack. You can see that Pokemon with "Fight" as their first type have the highest average attack. While this information might seem trivial, you can use this same process to see what courses in a graduate degree program have the highest net promoter score, for example.
 
 To create this PivotTable in Excel, I:
 
