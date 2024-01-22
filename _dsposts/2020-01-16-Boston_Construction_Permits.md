@@ -22,11 +22,11 @@ The introductory text page provided a mechanism to reduce extraneous load even f
 
 ##### 2. Post lectures covering the necessary theory and context for the week.
 
-These lectures provided insight into how an expert in the field thought about the specific aspect of cognitive behavioral therapy covered that week. By using stories and examples, the lecturer also made the material more relevant to students, reinforcing the need to learn the material to accomplish the student's goal of helping clients.
+These lectures provided insight into how an expert in the field thought about the sub-topic of cognitive behavioral therapy covered that week. By using stories and examples, the lecturer also made the material more relevant to students, reinforcing the student's intrinsic motivation to learn the material to accomplish the ultimate goal of helping clients.
 
 ##### 3. Post a written case for students to review, followed by open-ended questions about the case for students to answer in the learning management system. Student answers would be visible only to the instructor.
 
-Asking students to respond to a case provided an opportunity for students to practice the skills taught in the lecture in a professional context. The case questions dealt with risk factors and interventions, the same types of assessments students would need to make with real clients. Furthermore, the written questions provided an effective means of scaffolding learning activities, building students up with a low stakes, ungraded formative assessment leading to the more complex video role play with a partner later in the week.
+Asking students to respond to a case provided an opportunity for students to practice the skills taught in the lecture in a professional context. The case questions dealt with risk factors and interventions, the same types of assessments students would need to make with real clients. Furthermore, the written questions provided an effective means of scaffolding learning activities, building students up with a low stakes, ungraded formative assessment leading to a more complex video role play with a partner later in the week.
 
 ##### 4. Post a video of actors roleplaying the weekly topic in a cognitive behavioral therapy  session.
 
@@ -34,7 +34,7 @@ For this course, we cast a therapist and a client who recorded a series of video
 
 ##### 5. Ask students to record a role play with a partner for upload to the learning management system. These recordings would be visible only to the instructor.
 
-To record their own role plays, students were paired with a partner at the beginning of the course with whom they would meet every week to record their mock session. Since there were an even number of weeks in the course, students were able to switch roles every week, alternating between the therapist role and the client role. This activity provided a safe environment in which to practice skills necessary for success as a therapist, and by sending the recording to the instructor, students would receive targeted feedback to incorporate into their learning. It also created an opportunity for varied repetition, so students could practice the same skills they reinforced through the case questions in step 3 in a different medium. Finally, practicing with a partner provided an opportunity for social learning, reinforcing the student's intrinsic motivation to learn.
+To record their own role plays, students were paired with a partner at the beginning of the course with whom they would meet every week to record their mock sessions. Since there were an even number of weeks in the course, students were able to switch roles every week, alternating between the therapist role and the client role. This activity provided a safe environment in which to practice skills necessary for success as a therapist, and by sending the recording to the instructor, students would receive targeted feedback to incorporate into their learning. It also created an opportunity for varied repetition, so students could practice the same skills they reinforced through the case questions in step 3 in a different medium. Finally, practicing with a partner provided an opportunity for social learning, reinforcing the student's intrinsic motivation to learn.
 
 ##### 6. In the 90 minute group session conducted over Zoom, the instructor would review the case questions and lead a structured discussion with students about their thoughts on the case and role play.
 
